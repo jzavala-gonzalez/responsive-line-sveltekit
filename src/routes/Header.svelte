@@ -29,7 +29,7 @@
 	</nav>
 
 	<div class="corner">
-		<a href="https://github.com/sveltejs/kit">
+		<a href="https://github.com/jzavala-gonzalez/responsive-line-sveltekit/tree/main">
 			<img src={github} alt="GitHub" />
 		</a>
 	</div>

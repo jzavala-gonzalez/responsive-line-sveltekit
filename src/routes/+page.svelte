@@ -20,9 +20,20 @@ let data = sales.map((d) => ({ ...d, date: new Date(d.date) }));
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
+<style>
+h1 {
+  font-size: 2rem;
+}
+a {
+  font-weight: bold;
+}
+</style>
+
 <section>
 <h1>Responsive Line Chart</h1>
-<h2>The original writeup and example by Sam Selikoff at Build UI can be found <a href="https://buildui.com/recipes/responsive-line-chart">here</a>.</h2>
+<h2>The original writeup and example by Sam Selikoff at Build UI can be found <a href="https://buildui.com/recipes/responsive-line-chart">here</a>.
+This SvelteKit code can be found <a href="https://github.com/jzavala-gonzalez/responsive-line-sveltekit/tree/main">here</a>.
+</h2>
 </section>
 <div class="grid grid-cols-2 gap-x-4 gap-y-12 p-4">
   <div class="col-span-2 h-60">
